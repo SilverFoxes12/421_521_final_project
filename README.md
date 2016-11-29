@@ -12,8 +12,8 @@ Currently, the Arduino has three sensors to monitor the plant and the water bag.
 4) Motor "Homecube 12V DC Peristaltic Liquid Pump Miniature Dosing Pump Hose Pump for Aquarium Lab Analytical Water" was purchased from Amazon. Adafruit MotorSheild V2 was purchased from Adafruit to run the DC motor. Adafruit has an extension library on how to use the Motorshield and motor in conjuntion. Their resources can be found here: https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/using-dc-motors. <br>
 
 ## Code:
-1) light_sensor.ino --> starting point and reference for how to operate and receive output from the light sensor
-2) soil_sensor.ino --> starting point and reference for how to operate and receive output from the soil humidity sensor
-3) bag_sensor.ino --> starting point and reference for how to operate and receive output from the water level sensor
-4) ArduinoCodeDataLogging.ino --> final version of code which operates motor and records data from each of the three sensors
-5) ProcessingDataLogging.pde --> final version of Processing code which adds timestamp to data and saves it to a text file to be referenced later
+<br> 1) light_sensor.ino --> starting point and reference for how to operate and receive output from the light sensor <br>
+2) soil_sensor.ino --> starting point and reference for how to operate and receive output from the soil humidity sensor <br>
+3) bag_sensor.ino --> starting point and reference for how to operate and receive output from the water level sensor <br> 
+4) ArduinoCodeDataLogging.ino --> final version of code which operates motor and records data from each of the three sensors <br>
+5) ProcessingDataLogging.pde --> final version of Processing code which adds timestamp to data and saves it to a text file to be referenced later <br>
