@@ -10,3 +10,10 @@ Currently, the Arduino has three sensors to monitor the plant and the water bag.
 2) Soil Humidity sensor "SUNKEE Soil Hygrometer Detection Module Soil Moisture Sensor" was purchased from Amazon. The code was adapted from https://github.com/TasmanianDevilYouTube/Arduino/blob/master/Moisture_Sensor/Moisture_Sensor.ino and the electrical setup was modified from this youtube toturial https://www.youtube.com/watch?v=EjJW0_VET8I. Output is Wet, Damp, Dry or Sensor is not in the Soil or DISCONNECTED. The thresholds for the numbers were computed through trial and error using a dry and watered plant. Current code can be found in soil_sensor.ino.
 3) Water depth sensor "Phantom YoYo High Sensitivity Water Sensor" was purchased from Amazon. On the Amazon site, they provided a diagram for the electrical setup. The code was modified from the Soil Humidity Sensor code. Output is milimeters of depth. Current code can be found in bag_sensor.ino.
 4) Motor "Homecube 12V DC Peristaltic Liquid Pump Miniature Dosing Pump Hose Pump for Aquarium Lab Analytical Water" was purchased from Amazon. Adafruit MotorSheild V2 was purchased from Adafruit to run the DC motor. Adafruit has an extension library on how to use the Motorshield and motor in conjuntion. Their resources can be found here: https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/using-dc-motors.
+
+Code:
+1) light_sensor.ino --> starting point and reference for how to operate and receive output from the light sensor
+2) soil_sensor.ino --> starting point and reference for how to operate and receive output from the soil humidity sensor
+3) bag_sensor.ino --> starting point and reference for how to operate and receive output from the water level sensor
+4) ArduinoCodeDataLogging.ino --> final version of code which operates motor and records data from each of the three sensors
+5) ProcessingDataLogging.pde --> final version of Processing code which adds timestamp to data and saves it to a text file to be referenced later
