@@ -47,11 +47,9 @@ void configureSensor(void)
 void setup()
 {
   Serial.begin(9600); // Make sure this number and the number in the processing page is the same.
-  Serial.print("hello?");
   AFMS.begin();  // create with the default frequency 1.6KHz for motor
   myMotor->setSpeed(150);
   myMotor->run(RELEASE);
-  Serial.println("wtf");
   pinMode(A0, INPUT);   /*Humidity Sensor*/
   pinMode(A1, INPUT);  /*Bag*/
    /* Initialise the sensor */
